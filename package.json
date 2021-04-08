@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "n": "^7.1.0",
+    "stable": "^0.1.8",
+    "three": "^0.127.0",
+    "three-geo": "^1.4.4"
+  },
+  "name": "social_innovation_lab_ex",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikhuang/SIL_ex"
+  },
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vik Huang <shortestpoem@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

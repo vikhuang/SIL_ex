@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    	<title>simple-viewer</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		
+	<canvas id="canvas" width="480" height="320"></canvas>
+	<script type="module">
+			
+		//import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.127.0/build/three.module.js';
+		import Stats from 'https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.js';
+		import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js';
+		//import ThreeGeo from 'https://cdn.jsdelivr.net/npm/three-geo@1.4.4/dist/three-geo.min.js';
+					
+		//(async () => {
+		//	window.THREE = await import('https://cdn.jsdelivr.net/npm/three@0.127.0/build/three.module.min.js');
+
+		//	const ThreeGeo = (await import('https://cdn.jsdelivr.net/npm/three-geo@1.4.4/dist/three-geo.min.js')).default;
+		latlng = Array(2) [
+ 			0: 36.3928
+  			1: -112.6304
+		]
+
+
+		latlng = {
+  			const double_l = [36.3928, -112.6304]; // Colorado River
+  			//const ll = [45.9764, 7.6585]; // Matterhorn
+  			//const ll = [32.8861, 131.0819]; // Mount Aso
+  			//const ll = [40.8038, 14.3981]; // Vesuvio
+  		return double_l;
+		}
+
+
+		{
+		const renderer = new THREE.WebGLRenderer({antialias: true});
+		const controls = new THREE.OrbitControls(camera, renderer.domElement);
+		renderer.setSize(width, height);
+		renderer.setPixelRatio(devicePixelRatio);
+		invalidation.then(() => (controls.dispose(), renderer.dispose(), clearScene()));
+		
+		const render = () => { renderer.render(scene, camera); };
+		controls.addEventListener("change", render);
+		render(); // first time
+			
+		// https://github.com/w3reality/three-geo#usage
+		const tgeo = new ThreeGeo({
+			tokenMapbox: tgeoParams.token,
+		});
+		tgeo.getTerrain(latlng, tgeoParams.radius, tgeoParams.zoom, {
+						onRgbDem: (meshes) => {
+							meshes.forEach((mesh) => { scene.add(mesh); });
+							render();
+						},
+						onSatelliteMat: (mesh) => {
+							render();
+						},
+					});
+		
+		return renderer.domElement;
+		}
+
+		clearScene = () => {
+  // clear the scene in case of re-evaluation of notebook
+  // https://stackoverflow.com/questions/35060831/how-to-remove-all-mesh-objects-from-the-scene-in-three-js
+  for (let i = scene.children.length - 1; i >= 0; i--) {
+    let ch = scene.children[i];
+    if (ch.type === "Mesh" || ch.type === "Line") {
+      scene.remove(ch);
+      ch.geometry.dispose();
+      ch.material.dispose();
+    }
+  }
+}                                                                                                                               
+
+
+		</script>
+		
+	</body>
+</html>

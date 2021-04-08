@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    	<title>Projection</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+        <div>
+            Projection Object by Vik Huang
+        </div>	
+	<canvas id="canvas" width="640" height="320"></canvas>
+	<script type="module">
+			
+
+
+        // Import Part
+
+
+
+		import Stats from 'https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.js';
+		import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js';
+		
+        (async () => {
+        window.THREE = await import('https://cdn.jsdelivr.net/npm/three@0.127.0/build/three.module.min.js');
+        const Threelet = (await import('https://cdn.jsdelivr.net/npm/threelet@1.1.1/dist/threelet.esm.min.js')).default;
+        const ThreeGeo = (await import('https://cdn.jsdelivr.net/npm/three-geo@1.4.4/dist/three-geo.esm.min.js')).default;
+
+
+
+        // Threelet Settings
+
+
+
+        const threelet = new Threelet({
+            canvas: document.getElementById("canvas"),
+        });
+        threelet.setup('mod-controls', OrbitControls);
+        // threelet.setup('mod-stats', Stats);
+
+        const { scene, render } = threelet;
+        render(); // first time
+
+
+
+
+        // ioToken Parts
+
+
+
+
+        const ioToken = 'sk.eyJ1Ijoidmlra3lodWFuZyIsImEiOiJja24wOXlybjkwYW9tMnZscmxwd2Q5ZWVmIn0.7Q7PQ4xMb8o2uQatTLGnag';
+        const tgeo = new ThreeGeo({
+            tokenMapbox: ioToken,
+        });
+
+
+
+        //terrainRgb Setting
+
+
+
+        const origin = [23.9739, 120.9693];
+        const radius = 5.0;
+
+        // 23.973990608593017, 120.96931804515746
+        // 24.248560319566494, 121.71450242183407 和仁
+
+        const terrain = await tgeo.getTerrainRgb(origin, radius, 13);
+
+
+        terrain.rotation.x = - Math.PI/2;
+        terrain.children.forEach(mesh => {
+            mesh.material.wireframe = true;
+        });
+        scene.add(terrain);
+
+
+
+        // add a point
+
+
+
+        const { proj, unitsPerMeter } = tgeo.getProjection(origin, radius);
+
+        // const [x, y] = proj(origin), z = 4000; // reprojection test
+        const [x, y] = proj([23.9739, 120.9693]), z = 100; 
+        // const [x, y] = proj([46.5852, 7.9610]), z = 2100; // road?
+
+        const geom = new THREE.BufferGeometry();
+        const vertices = new Float32Array([x, z * unitsPerMeter, -y]);
+        geom.setAttribute('position', new THREE.BufferAttribute(vertices,
+            10)); // 'values per vertex' https://threejs.org/docs/#api/en/core/BufferGeometry
+
+        const dot = new THREE.Points(geom,
+            new THREE.PointsMaterial({
+                size: 8,
+                sizeAttenuation: false,
+                color: 0x00cccc,
+            }));
+        scene.add(dot);
+
+        render();
+    })();
+
+
+
+		</script>
+		
+	</body>
+</html>
