@@ -1,4 +1,0 @@
-cache
-dist/*.js*
-src/envs-ignore
-target

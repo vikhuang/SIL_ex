@@ -13,7 +13,7 @@
 - C區：資訊說明，呈現易讀性高的資訊，文字為主、圖表為輔。
 - D區：主視覺輔助資訊，點擊A區後，部分次要內容在此顯示。
 
-![Dashboard-A](/Users/r20/Downloads/Dashboard-A.png)
+![Dashboard-A](https://vikhuang.github.io/SIL_ex/textures/Dashboard-A.png)
 
 
 ### 呈現裝置
