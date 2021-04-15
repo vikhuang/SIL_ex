@@ -1,6 +1,7 @@
 # **數位牆 Sample**
 
-
+- **此次提案視覺概念及資料來源，來自於聯合國提倡的17項永續發展指標、台灣逾600百家品牌及社創中心在社會創新場域的努力。**
+- **以下提供的視覺為示意圖，僅供參考，初稿會依照貴司後續所提供的完整資料變化、調整。**
 
 [![MIT licensed][mit-badge]][mit-url]
 
@@ -8,9 +9,6 @@
 
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: https://github.com/w3reality/three-geo/blob/master/LICENSE
-
-- **此次提案視覺概念及資料來源，來自於聯合國提倡的17項永續發展指標、台灣逾600百家品牌及社創中心在社會創新場域的努力。**
-- **以下提供的視覺為示意圖，僅供參考，初稿會依照貴司後續所提供的完整資料變化、調整。**
 
 -------
 
@@ -59,4 +57,5 @@
 
 #### 互動設備 
 
-**設備需連結網路**。另建議採用iOS系統平板電腦，可降低開發成本。Android/OSX的筆記型電腦亦可相容。推薦[iPad Mini](https://www.apple.com/tw/ipad-mini/)。
+**設備需連結網路**。另建議採用iOS系統平板電腦，可降低開發成本。Android/OSX的筆記型電腦亦可相容。推薦[iPad](https://www.apple.com/tw/ipad-10.2/)/[iPad Mini](https://www.apple.com/tw/ipad-mini/)。
+
