@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Noto Sans TC'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+#spin, #reset {
+  position: absolute;
+  bottom: 20vh;
+  right: 45vw;
+}
+
+#spin:hover {
+  color: rgb(0, 180, 120);
+  border-color: rgb(0, 180, 120);
+}
+
+#spin:focus, #reset:focus {
+  outline:none;
+}
+
+/* #reset {
+  position: absolute;
+  bottom: 20vh;
+  right: 35vw;
+} */
+
+#reset:hover {
+  color: red;
+  border-color: red;
+}
+
+
+
+#readout {
+  position: absolute;
+  bottom: 7vh;
+  left: 35vw;
+}
+
+
+#selector {
+  position: absolute;
+  top: 21vh;
+  right: 47.5vw;
+  font-size: 40px;
+  z-index: 3;
+}
+
+#result{
+  font-size:50px;
+  color: rgb(0, 180, 120);
+}
+
+input {
+  font-size: 16px;
+  border:none;
+  border-bottom: 1px solid black
+}
