@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sil_ex/static/css/main.0bc3c959.chunk.css",
+    "main.js": "/sil_ex/static/js/main.9e4fcb54.chunk.js",
+    "main.js.map": "/sil_ex/static/js/main.9e4fcb54.chunk.js.map",
+    "runtime-main.js": "/sil_ex/static/js/runtime-main.f9ef93ce.js",
+    "runtime-main.js.map": "/sil_ex/static/js/runtime-main.f9ef93ce.js.map",
+    "static/js/2.cd6ed49e.chunk.js": "/sil_ex/static/js/2.cd6ed49e.chunk.js",
+    "static/js/2.cd6ed49e.chunk.js.map": "/sil_ex/static/js/2.cd6ed49e.chunk.js.map",
+    "static/js/3.fd3156a5.chunk.js": "/sil_ex/static/js/3.fd3156a5.chunk.js",
+    "static/js/3.fd3156a5.chunk.js.map": "/sil_ex/static/js/3.fd3156a5.chunk.js.map",
+    "index.html": "/sil_ex/index.html",
+    "static/css/main.0bc3c959.chunk.css.map": "/sil_ex/static/css/main.0bc3c959.chunk.css.map",
+    "static/js/2.cd6ed49e.chunk.js.LICENSE.txt": "/sil_ex/static/js/2.cd6ed49e.chunk.js.LICENSE.txt",
+    "static/media/global-goals.0e307ba4.png": "/sil_ex/static/media/global-goals.0e307ba4.png",
+    "static/media/proj2.f5550c7b.png": "/sil_ex/static/media/proj2.f5550c7b.png",
+    "static/media/產消責任.a9a5e042.png": "/sil_ex/static/media/產消責任.a9a5e042.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9ef93ce.js",
+    "static/js/2.cd6ed49e.chunk.js",
+    "static/css/main.0bc3c959.chunk.css",
+    "static/js/main.9e4fcb54.chunk.js"
+  ]
+}
