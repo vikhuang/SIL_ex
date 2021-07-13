@@ -3,6 +3,15 @@ import { buttons, Companies } from "./data";
 import { fullCom } from "./fullData";
 
 
+export function getInfo() {
+  const infoList = buttons;
+  return infoList;
+}
+
+export function filterInfo(SDGs) {
+  const filtredInfo = getInfo().filter(type => type.name === SDGs);
+  return filtredInfo;
+}
 
 // List Part
 

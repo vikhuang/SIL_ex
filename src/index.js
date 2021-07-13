@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-document.body.style = 'background: black;';
+// document.body.style = 'background: black;';
 
 
 ReactDOM.render(

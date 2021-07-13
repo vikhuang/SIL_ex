@@ -85,7 +85,7 @@ export function FlashCardC(){
   
   export function FlashCardE(){  
 
-    let values = ["91 家", "11.4億元", "1.7萬人", "5880+ 場"];
+    let values = ["91 家", "11.4億元", "1.7萬人", "9760+ 場"];
     let { result, dencrypt } = useDencrypt();
   
     React.useEffect(() => {
