@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SIL_ex/static/css/main.0bc3c959.chunk.css",
-    "main.js": "/SIL_ex/static/js/main.9e4fcb54.chunk.js",
-    "main.js.map": "/SIL_ex/static/js/main.9e4fcb54.chunk.js.map",
+    "main.css": "/SIL_ex/static/css/main.b8f9ddce.chunk.css",
+    "main.js": "/SIL_ex/static/js/main.5400a6c7.chunk.js",
+    "main.js.map": "/SIL_ex/static/js/main.5400a6c7.chunk.js.map",
     "runtime-main.js": "/SIL_ex/static/js/runtime-main.b666697d.js",
     "runtime-main.js.map": "/SIL_ex/static/js/runtime-main.b666697d.js.map",
     "static/js/2.cd6ed49e.chunk.js": "/SIL_ex/static/js/2.cd6ed49e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fd3156a5.chunk.js": "/SIL_ex/static/js/3.fd3156a5.chunk.js",
     "static/js/3.fd3156a5.chunk.js.map": "/SIL_ex/static/js/3.fd3156a5.chunk.js.map",
     "index.html": "/SIL_ex/index.html",
-    "static/css/main.0bc3c959.chunk.css.map": "/SIL_ex/static/css/main.0bc3c959.chunk.css.map",
+    "static/css/main.b8f9ddce.chunk.css.map": "/SIL_ex/static/css/main.b8f9ddce.chunk.css.map",
     "static/js/2.cd6ed49e.chunk.js.LICENSE.txt": "/SIL_ex/static/js/2.cd6ed49e.chunk.js.LICENSE.txt",
     "static/media/global-goals.0e307ba4.png": "/SIL_ex/static/media/global-goals.0e307ba4.png",
     "static/media/proj2.f5550c7b.png": "/SIL_ex/static/media/proj2.f5550c7b.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b666697d.js",
     "static/js/2.cd6ed49e.chunk.js",
-    "static/css/main.0bc3c959.chunk.css",
-    "static/js/main.9e4fcb54.chunk.js"
+    "static/css/main.b8f9ddce.chunk.css",
+    "static/js/main.5400a6c7.chunk.js"
   ]
 }
