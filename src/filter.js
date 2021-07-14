@@ -144,7 +144,7 @@ export function InfoBlock(props){
             <div style = {{color:"black", fontSize:"30px", fontWeight:"500"}}><FlashCardE /></div>
           </>
             : null }
-          </div>)
+          </div>
       <div className= "middleText" style= {midInfoStyle} >
         {props.infoBlockData.subInfo}
         <div style= {midMinInfoStyle}>  家</div>
