@@ -7005,9 +7005,9 @@ export const buttons = [{
     index: 0,
     color: "#FFFFFF",
     district: {
-      N : 387,
-      M : 110,
-      S : 106,
+      N : 450,
+      M : 120,
+      S : 113,
       E : 33,
       I : 1
    }
@@ -7022,10 +7022,10 @@ export const buttons = [{
     index: 1,
     color: "#E5243B",
     district: {
-      N : 29,
-      M : 10,
+      N : 34,
+      M : 11,
       S : 5,
-      E : 6,
+      E : 7,
    }
     
   },
@@ -7039,9 +7039,9 @@ export const buttons = [{
     index: 2,
     color: "#DDA63A",
     district: {
-      N : 25,
-      M : 20,
-      S : 19,
+      N : 32,
+      M : 19,
+      S : 17,
       E : 3,
    }
   },
@@ -7055,9 +7055,9 @@ export const buttons = [{
     index: 3,
     color: "#4C9F38",
     district: {
-      N : 85,
-      M : 20,
-      S : 21,
+      N : 81,
+      M : 15,
+      S : 16,
       E : 4,
    }
   },
@@ -7071,9 +7071,9 @@ export const buttons = [{
     index: 4,
     color: "#C5192D",
     district: {
-      N : 130,
-      M : 25,
-      S : 29,
+      N : 147,
+      M : 27,
+      S : 31,
       E : 8,
    }
 
@@ -7088,8 +7088,8 @@ export const buttons = [{
     index: 5,
     color: "#FF3A21",
     district: {
-      N : 21,
-      M : 3,
+      N : 27,
+      M : 4,
       S : 5,
       E : 3,
    }
@@ -7105,8 +7105,8 @@ export const buttons = [{
     index: 6,
     color: "#26BDE2",
     district: {
-      N : 7,
-      M : 1,
+      N : 12,
+      M : 2,
       S : 2,
       E : 0,
    }
@@ -7122,10 +7122,10 @@ export const buttons = [{
     index: 7,
     color: "#FCC30B",
     district: {
-      N : 23,
-      M : 5,
+      N : 28,
+      M : 8,
       S : 3,
-      E : 1,
+      E : 2,
    }
 
   },
@@ -7139,10 +7139,10 @@ export const buttons = [{
     index: 8,
     color: "#A21942",
     district: {
-      N : 129,
-      M : 37,
-      S : 42,
-      E : 15,
+      N : 148,
+      M : 35,
+      S : 52,
+      E : 14,
    }
 
   },
@@ -7156,10 +7156,10 @@ export const buttons = [{
     index: 9,
     color: "#FD6925",
     district: {
-      N : 35,
-      M : 4,
-      S : 9,
-      E : 0,
+      N : 40,
+      M : 7,
+      S : 10,
+      E : 1,
    }
 
   },
@@ -7173,10 +7173,10 @@ export const buttons = [{
     index: 10,
     color: "#DD1367",
     district: {
-      N : 62,
-      M : 14,
-      S : 12,
-      E : 2,
+      N : 67,
+      M : 15,
+      S : 15,
+      E : 1,
    }
 
   },
@@ -7190,9 +7190,9 @@ export const buttons = [{
     index: 11,
     color: "#FD9D24",
     district: {
-      N : 89,
-      M : 32,
-      S : 44,
+      N : 112,
+      M : 39,
+      S : 48,
       E : 18,
       I : 1
    }
@@ -7208,10 +7208,10 @@ export const buttons = [{
     index: 12,
     color: "#BD882E",
     district: {
-      N : 129,
-      M : 33,
-      S : 44,
-      E : 14,
+      N : 141,
+      M : 45,
+      S : 42,
+      E : 11,
    }
 
   },
@@ -7225,10 +7225,10 @@ export const buttons = [{
     index: 13,
     color: "#3F7E44",
     district: {
-      N : 26,
+      N : 36,
       M : 7,
-      S : 5,
-      E : 2,
+      S : 8,
+      E : 1,
    }
 
   },
@@ -7242,9 +7242,9 @@ export const buttons = [{
     index: 14,
     color: "#0A97D9",
     district: {
-      N : 20,
-      M : 5,
-      S : 10,
+      N : 31,
+      M : 8,
+      S : 15,
       E : 3,
    }
 
@@ -7259,10 +7259,10 @@ export const buttons = [{
     index: 15,
     color: "#56C02B",
     district: {
-      N : 38,
-      M : 9,
+      N : 43,
+      M : 10,
       S : 8,
-      E : 6,
+      E : 7,
    }
 
   },
@@ -7276,8 +7276,8 @@ export const buttons = [{
     index: 16,
     color: "#00689D",
     district: {
-      N : 20,
-      M : 0,
+      N : 23,
+      M : 3,
       S : 2,
       E : 0,
    }
@@ -7293,10 +7293,10 @@ export const buttons = [{
     index: 17,
     color: "#19486A",
     district: {
-      N : 78,
-      M : 20,
-      S : 23,
-      E :6,
+      N : 107,
+      M : 25,
+      S : 24,
+      E : 10,
    }
 
   },

@@ -63,7 +63,6 @@ export default function TWMap() {
     }
     
     update(map);
-
   }, []);
 
   return (
